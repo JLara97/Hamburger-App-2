@@ -6,7 +6,7 @@ $(function () {
     var newStatus = $(this).data("newStatus");
 
     var newStatusState = {
-      devoured: newStatus
+      eaten: newStatus
     };
 
     // Send the PUT request.
@@ -26,8 +26,8 @@ $(function () {
     // Make sure to preventDefault on a submit event.
     event.preventDefault();
     var newBurger = {
-      burger_name: $("#bg").val().trim(),
-      devoured: false
+      name: $("#bg").val().trim(),
+      eaten: false
     };
 
     // Send the POST request.
