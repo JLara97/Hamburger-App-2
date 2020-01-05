@@ -1,0 +1,38 @@
+h1 {
+  color: red;
+}
+
+li ,  ul {
+  font-size: 20px;
+  padding: 0;
+  margin-top: 0;
+}
+
+body{
+
+   background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); 
+}
+
+.input-field input[type=text]:focus + label {
+  color: red !important;
+}
+
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid white !important;
+  box-shadow: 0 1px 0 0 white !important;
+}
+
+.colEaten, .colNotEaten {
+
+  overflow: auto; 
+}
+
+.burgerList{
+  background-color: wheat;
+  border-style: inset;
+}
+.btn {
+  font-display: 15px;
+  letter-spacing: 2px;
+  align-content: center;
+}
